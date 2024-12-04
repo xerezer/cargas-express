@@ -19,7 +19,7 @@ header{
     width: 40%;
     float: left;
  }
- .logo img{
+.logo img{
     width: 25%;
 }
 nav{
@@ -38,7 +38,7 @@ nav a:hover{
     color: #fff;
     background-color: #3789B2;
  }
- .banner{
+.banner{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,14 +59,14 @@ nav a:hover{
     font-weight: 500;
 
     }
-quem-somos span{
+.quem-somos span{
     font-family: "Montserrat";
     font-size: 1.2em;
     color: #808080;
     margin-bottom: 10px;
     font-weight: 600;
     margin-bottom: 40px;
-    }
+}
 .servicos{
     width: 70%;
     margin: 0 auto;
@@ -76,28 +76,26 @@ quem-somos span{
     justify-content: center;
     margin:  50px;
     }
-titulo-bloco-servicos{
+.titulo-bloco-servicos{
     width: 80%;
     display: flex;
     text-align: center;
-
-    }
+}
 .borda-esquerda, .borda-direita{
     width: 35%;
     padding-top: 15px;
-
-    }
+}
 .servicos h2{
     width: 30%;
     text-transform: uppercase;
     color: #808080;
-    }
+}
 .bloco-servicos{
     width: 300px;
     margin: 10px 5px;
     text-align: left;
-    }
-bloco-servicos img{
+}
+.bloco-servicos img{
     display: flex;
     padding-bottom: 150px;
     padding-right: 10px;
@@ -109,8 +107,7 @@ bloco-servicos img{
     padding-bottom: 25px;
     font-family: "Montserrat";
     text-align: left;
-
-    }
+}
 .contato{
     width: 100%;
     margin: 0 auto;
@@ -120,7 +117,7 @@ bloco-servicos img{
     justify-content: center;
     margin-top: 10px;
     background-color: #3789b2;
-    }
+}
 
 form{
     display: flex;
@@ -128,7 +125,7 @@ form{
     width: 30%;
     padding: 10px 20px;   
 }
-form input,textarea{
+form input, form textarea{
     padding: 10px;
     border: 1px solid#ddd;
     border-radius: 5px;
@@ -144,7 +141,6 @@ form button:hover{
     background-color: #fff;
     color: #808080;
 }
-
 .contato a{
     background-color: #25d366;
     border-radius: 50px;
